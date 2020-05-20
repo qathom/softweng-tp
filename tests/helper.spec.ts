@@ -19,8 +19,8 @@ describe('Matching categories for our helper function', () => {
     });
   })
 
+  // Testing the possible NaN input
   test('Using types', () => {
-    expect(typeof 2).toBe('number');
     const err: () => string = () => getInputValue(NaN);
     expect(err).toThrow(TypeError);
   });
