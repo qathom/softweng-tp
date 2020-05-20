@@ -1,5 +1,7 @@
 # Practical work - Practice TDD
 
+![Run tests](https://github.com/qathom/softweng-tp/workflows/Run%20tests/badge.svg)
+
 ## Installation
 
 ```bash
